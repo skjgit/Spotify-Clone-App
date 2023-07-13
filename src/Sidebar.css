@@ -1,0 +1,26 @@
+.Sidebar{
+    display: flex;
+  flex-direction: column;
+  flex: 0.2;
+  padding-left: 10px;
+  padding-right: 10px;
+  min-width: 230px;
+  height: 100vh;
+  color: white;
+  background-color: #040404;
+  margin-top: 20px;
+}
+/* .Sidebar__top{
+    align-items: center;
+    text-align: left;
+    padding: 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    border-radius: 1%;
+    background-color: #201c1c9a;
+    height: 14vh;
+    max-width: 94%;
+    margin-top: 10px;
+    color: white;
+} */
+ 

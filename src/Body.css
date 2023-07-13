@@ -1,0 +1,8 @@
+.Body{
+    padding: 30px;
+    flex:0.8;
+    background-color: rgb(54, 53,56);
+    border-radius: 1%;
+    margin-top: 10px;
+    background: linear-gradient(rgb(54, 53, 56),rgb(0,0,0))
+}
