@@ -6,3 +6,20 @@
 -> MODERN TECH
 -> REACT HOOKS FUNCTIONAL(HOOKS,STATE)
 -> entire REACT Tech Stack
+
+
+TO upload on Github
+Commands in git bash:
+touch .gitignore
+git congig --global user.name Saksham
+git congig --global user.email "email"
+git init
+git add .
+git commit -m "Initial Commit"
+git status # Just to see
+ssh-keygen -t rsa -b 4096 -C "jaonsaksham0331@gmail.com"
+tail <path to id_rsa.pub> #add this key to your Github account
+git remote add origin <ssh url.git>
+git push origin master
+
+

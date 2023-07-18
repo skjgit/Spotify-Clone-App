@@ -1,4 +1,4 @@
-//4
+//4&21
 export const initialState = {
     user:null,
     playlists:[],
@@ -32,7 +32,16 @@ const reducer = (state,action) =>{  // action is used to manipulate the data lay
             return{
                 ...state,
                 playlists:action.playlists,
-            }    
+            } 
+
+        // 21  
+        case "SET_DISCOVER_WEEKLY":
+            return {
+                ...state,
+                discover_weekly: action.discover_weekly,
+            };
+        
+         
         default:
             return state;
     }

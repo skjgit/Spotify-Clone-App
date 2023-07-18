@@ -1,9 +1,71 @@
+/* 16 */
 .Footer{
-    border:0;
-    height:65px;
     position:fixed;
-    width:100%;
+    display: flex;
+    justify-content: space-between;
+    border:0;
+    height:50px;
+    width:97%;
     bottom:0;
+    color:white;
+    min-width:700px;
+    padding: 20px;
     background-color:rgba(0,0,0);
 
+}
+
+.footer_right * .MuiSlider-root:hover{
+    color:green;
+}
+.footer_right * .MuiSlider-root{
+    color:white;
+}
+
+.footer_left{
+    flex:0.3;
+    display:flex;
+    justify-content: left;
+    gap:10px;
+    object-fit: contain;
+}
+.footer_left>div{
+    text-align: left;
+}
+.footer_left>div>p{
+    font-size: 10px;
+    margin-top: 2px;
+}
+.footer_albumLogo{
+    height:55px;
+    border-radius: 5%;
+    margin-left: 0px;
+}
+.footer_heart{
+    height:18px;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+
+.footer_center{
+    flex:0.4;
+    padding:0px 100px 20px 100px;
+    color:white;
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+    gap: 10px;
+}
+
+.footer_icon:hover,
+.footer_green:hover{
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.2) !important;
+}
+
+
+.footer_right{
+    flex:0.3;
+    margin-top: 5px;
+    display:flex;
+    color:white;
 }

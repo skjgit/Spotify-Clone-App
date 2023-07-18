@@ -5,7 +5,6 @@ import { getTokenFromUrl } from "./spotify";
 import SpotifyWebApi from "spotify-web-api-js";
 import Player from"./Player";
 import {UseDataLayerValue} from "./DataLayer";
-
 const spotify = new SpotifyWebApi(); // this is the instance of the spotify web api
 function App() {
   // Run code based on a given conditions
@@ -48,6 +47,14 @@ function App() {
         });
       });
         
+
+      /*20*/
+      spotify.getPlaylist('37i9dQZEVXcRTmZVLJiRdu').then(response => {
+        dispatch({
+          type:"SET_DISCOVER_WEEKLY",
+          discover_weekly:response,
+        })
+      });
 
     }
 

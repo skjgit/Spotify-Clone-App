@@ -1,3 +1,4 @@
+/* 13 */
 .sidebarOption {
     display: flex;
     cursor: pointer;
@@ -23,8 +24,9 @@
   }
   
   .sidebarOption > p {
-    margin-top: 10px;
-    margin-left: 20px;
     font-size: 14px;
+    margin: auto;
+    color: white;
+    padding-bottom: 10px;
   }
 

@@ -1,26 +1,81 @@
+/* 14 */
 .Sidebar{
-    display: flex;
-  flex-direction: column;
-  flex: 0.2;
-  padding-left: 10px;
-  padding-right: 10px;
-  min-width: 230px;
-  height: 100vh;
-  color: white;
-  background-color: #040404;
-  margin-top: 20px;
+  display: flex;
+flex-direction: column;
+flex: 0.4;
+padding-left: 10px;
+padding-right: 8px;
+width:auto;
+min-width: 330px;
+max-width: 405px;
+height: 100vh;
+color: white;
+background-color: #040404;
+margin-top: 10px;
 }
-/* .Sidebar__top{
+.Sidebar__top{
     align-items: center;
     text-align: left;
     padding: 10px;
     display: grid;
     grid-template-rows: 1fr 1fr;
-    border-radius: 1%;
-    background-color: #201c1c9a;
+    border-radius: 2%;
+    background-color: #1b1a1a9a;
     height: 14vh;
     max-width: 94%;
-    margin-top: 10px;
     color: white;
+}
+.Sidebar__bottom{
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 2%;
+    background-color: #1b1a1a9a;
+    height: 80vh;
+    max-width: 94%;
+    color: white;
+}
+
+.Contents{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 40px;
+    color: grey;
+    gap: 10px;
+    transition: 200ms color ease-in;
+    padding-left: 5px;
+}
+.Contents>div{
+    background-color:rgb(36, 34, 34);
+    border-radius: 40%;
+    color:rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    height:10px;
+    flex:1;
+    width:auto;
+    margin-top: 15px;
+    padding-bottom: 20px;
+    border:0px;
+}
+/* 
+.playlists{
+  max-width: 70px;
+}
+.albums{
+  max-width: 60px;
 } */
+.artists{
+  max-width: 80px;
+}
+.shows{
+  max-width: 70px;
+} 
+
+.playlist__list{
+  margin-top: 20px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+}
  
