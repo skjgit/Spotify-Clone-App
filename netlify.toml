@@ -1,6 +1,8 @@
 [build]
   command = "npm run build"  # Your build command
-  publish = "build"          # The directory where your build files will be stored
-  environment = { 
-    NODE_OPTIONS = "--openssl-legacy-provider"  # Fix for OpenSSL issue
-  }
+  publish = "build"          # Directory where your build files are stored
+
+# Correct way to define environment variables in TOML:
+  [build.environment]
+    NODE_OPTIONS = "--openssl-legacy-provider"
+
